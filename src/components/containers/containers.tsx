@@ -1,3 +1,5 @@
+import "./containersStyle.css";
+
 interface ContentType{
     title: string;
     image?: string;
@@ -13,9 +15,9 @@ export function Containers(props: Readonly<ContentType>){
             
             <img src = {props.image} alt = {`${props.title} imagem`} />
             
-            <strong>
+            <span>
                 ${props.description}
-            </strong>
+            </span>
         </div>
     )
 }
