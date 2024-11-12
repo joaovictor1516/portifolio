@@ -1,13 +1,13 @@
 import { Header } from "./components/header/header.tsx";
-import './App.css'
+import { AboutMe } from "./components/aboutMe.tsx";
+import "./App.css";
 
-function App() {
+export function App() {
 
   return (
     <>
       <Header/>
+      <AboutMe/>
     </>
   )
 }
-
-export default App
