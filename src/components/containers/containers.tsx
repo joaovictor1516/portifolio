@@ -16,7 +16,7 @@ export function Containers(props: Readonly<ContentType>){
             <img src = {props.image} alt = {`${props.title} imagem`} />
             
             <span>
-                ${props.description}
+                {props.description}
             </span>
         </div>
     )
