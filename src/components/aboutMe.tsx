@@ -2,10 +2,15 @@ import { MyTechnologies } from "./myTechnologies";
 
 export function AboutMe(){
     return(
-        <div id="aboutMe">
+        <main id="aboutMe">
             <h2>Sobre mim</h2>
 
-            <MyTechnologies/>
-        </div>
+            <div>
+                <p>Me chamo João Victor Campos, sou desenvolvedor web júnior</p>
+
+                <MyTechnologies/>
+            </div>
+            
+        </main>
     )
 }
