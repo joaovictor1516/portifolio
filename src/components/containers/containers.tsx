@@ -8,15 +8,15 @@ interface ContentType{
 
 export function Containers(props: Readonly<ContentType>){
     return(
-        <div>
-            <h2>
+        <div id="container">
+            <img src = {props.image} alt = {`${props.title} imagem`} id="containerImage"/>
+            
+            <h2 id="containerTitle">
                 {props.title}
             </h2>
-            
-            <img src = {props.image} alt = {`${props.title} imagem`} />
-            
-            <span>
-                {props.description}
+
+            <span id="containerDescription">
+                    {props.description}
             </span>
         </div>
     )
