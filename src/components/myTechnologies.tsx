@@ -8,7 +8,7 @@ import "../App.css"
 
 export function MyTechnologies(){
     return(
-        <main>
+        <section id="myTechnologies">
             <h2>Ferramentas que uso:</h2>
 
             <div className="myTechnologiesContainers">
@@ -42,6 +42,6 @@ export function MyTechnologies(){
                     description="Faz um ano que utilizo o figma para a criacao dos prototipos dos meus projetos."
                 />
             </div>
-        </main>
+        </section>
     )
 }

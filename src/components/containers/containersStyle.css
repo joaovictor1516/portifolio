@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#container{
+    margin: 5px 0;
+    padding : 5px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #49494972;
+    gap: 2px;
+    max-width: auto;
+    border: solid ;
+    border-radius: 10px;
+}
+
+#containerDescription{
+    font-weight: bold;
+}
