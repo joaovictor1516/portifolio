@@ -2,7 +2,7 @@ import { MyTechnologies } from "./myTechnologies";
 
 export function AboutMe(){
     return(
-        <main id="aboutMe">
+        <section id="aboutMe">
             <h2>Sobre mim</h2>
 
             <div>
@@ -10,7 +10,6 @@ export function AboutMe(){
 
                 <MyTechnologies/>
             </div>
-            
-        </main>
+        </section>
     )
 }
